@@ -1,4 +1,4 @@
-# LAB-PBO-08-2026 Repository
+# LAB-PBO-07-2026 Repository
 
 Selamat datang di repositori LAB-PBO-07-2026! Repositori ini adalah tempat pengumpulan tugas untuk mata kuliah Pemrograman Berorientasi Objek semester ini. Berikut adalah panduan lengkap untuk berkontribusi dan mengumpulkan tugasmu.
 
