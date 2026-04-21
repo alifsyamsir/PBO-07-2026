@@ -21,7 +21,7 @@ git clone <url-repositori-hasil-fork>
 4. **Masuk ke Repositori & Buat Branch**: Masuk ke folder utama, lalu buat cabang (*branch*) baru khusus untukmu. Gunakan format NIM masing-masing.
 
 ~~~bash
-cd LAB-PBO-08-2026
+cd LAB-PBO-07-2026
 git checkout -b H0712510-- # Ganti dengan NIM masing-masing (Ingat pakai -b)
 ~~~
 
@@ -50,7 +50,7 @@ git push -u origin H0712510-- # Sesuaikan NIM
 
 Mulai minggu kedua dan seterusnya, langkahnya jauh lebih singkat. Kamu **TIDAK PERLU** melakukan fork, clone, atau membuat *branch* baru lagi.
 
-1. **Buka Terminal**: Buka terminal dan pastikan kamu sudah berada di dalam folder `LAB-PBO-08-2026` di komputermu.
+1. **Buka Terminal**: Buka terminal dan pastikan kamu sudah berada di dalam folder `LAB-PBO-07-2026` di komputermu.
 
 2. **Pastikan Berada di Branch NIM**: Pindah ke *branch* NIM-mu. *(Catatan: Gunakan checkout biasa, **JANGAN** gunakan `-b` lagi karena branch-nya sudah ada).*
 
