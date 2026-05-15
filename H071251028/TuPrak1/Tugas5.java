@@ -1,0 +1,31 @@
+// input satu buah bilangan, kemudian buat perulangan untuk mencari angka tersebut dari array 2d yang dibuat sebelumnya. 
+// matriks 3x3
+
+import java.util.Scanner;
+
+public class Tugas5 {
+    public static void main(String[] args) {
+        int[][] nums = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}; 
+        Scanner sc = new Scanner(System.in); 
+        
+        try { 
+            System.out.print("Input: "); 
+            int cari = sc.nextInt(); 
+            
+            boolean found = false; 
+            search: 
+            for (int i = 0; i < nums.length; i++) { 
+                for (int j = 0; j < nums.length; j++) { 
+                    if (nums[i][j] == cari) { 
+                        System.out.println("Found " + cari + " at [" + i + "] [" + j + "]"); 
+                        found = true;
+                        break search; 
+                    }
+                }
+            }
+            if (!found) System.out.println("Angka tidak ditemukan."); 
+        } catch (Exception e) { 
+            System.out.println("Terjadi kesalahan input!"); 
+        }
+    }
+}
